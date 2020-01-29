@@ -1,99 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- <meta http-equiv="refresh" content="3" > -->
-    <!-- @TODO - remove meta tag -->
     <title>Tom Sharp</title>
+    <meta name="description" content="Data Scientist">
     <link rel="stylesheet" href="./static/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="static/css/custom.css">
   </head>
-  <body style="border-style: solid; border-width: 5px;">
-    <div>
-      <!-- nav -->
-      <nav class="navbar navbar-expand-lg navbar-light px-5">
-        <H3 class="navbar-brand mb-0" href="#">T.M. Sharp</H3>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Resume</a>
-            </li>
-            <!-- <button type="button" class="btn btn-primary">
-              Resume <span class="badge badge-light"></span>
-            </button> -->
-          </ul>
-        </div>
-      </nav>
+  <body style="border-style: solid; border-width: 5px; border-color:darkgrey">
 
-      <!-- introduction section -->
-      <div class="container-fluid p-0">
-        <div class="row mt-5"></div>
-        <div class="row mt-5"></div>
-        <div class="row mt-5">
-          <div class=col></div>
-          <div class="col-8 my-auto">
-            <H2>Hello, I'm Tom. I'm a Data Scientist with years of experience serving clients at a Big 4 Consulting Firm.</H2>
-          </div>
-          <div class=col></div>
-        </div>
+    <!-- nav -->
+    <nav class=" outer-container space-top navbar navbar-expand-lg navbar-light">
+      <H3 class="navbar-brand mb-0" href="#">T.M. Sharp</H3>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Resume</a>
+          </li>
+        </ul>
       </div>
-      <!-- end introduction section -->
+    </nav>
 
-      <!-- intro photo section -->
-      <div class="container-fluid p-0">
-        <div class="row mt-5">
-          <div class="col-11 my-auto mx-5">
-            <img src="./static/img/me-cropped.jpg" class='img-fluid rounded'></img>
-          </div>
-        </div>
+    <div> 
+
+      <!-- intro section -->
+      <div class="inner-container hero">
+        <H2>Hey, I'm Tom. I'm a Data Scientist with years of experience serving clients at a Big 4 Consulting Firm.</H2>
       </div>
-      <!-- end intro photo section -->
+      <div class="outer-container space-bottom">
+        <img src="./static/img/me-cropped.jpg" class='img-fluid rounded'></img>
+      </div>
+      <!-- end intro section -->
 
       <!-- about me section -->
-      <br><br>
-      <div class="container-fluid p-0">
-        <div class="row mt-5">
-          <div class=col></div>
-          <div class="col-8 my-auto">
-            <H5>About me</H5>
-            <br>
-            <div>
-              I currently am working as a UX Engineer at GoDaddy, which is where my passion for design and development converge. 
-              See my previous work history on LinkedIn. 
-              Outside of work I have a beautiful wife and cat (obviously). 
-              I am also working on a few side projects including Investment Calculator (a simple tool to teach people about investing) 
-              and dayofthedead.holiday. Currently I am not accepting freelance work, but I'd love to get coffee and get to know you, 
-              so don’t hesitate to get in touch.
-            </div>
-          </div>
-          <div class=col></div>
+      <div class="inner-container">
+        <H5>About me</H5>
+        <div>
+          I currently am working as a UX Engineer at GoDaddy, which is where my passion for design and development converge. 
+          See my previous work history on LinkedIn. 
+          Outside of work I have a beautiful wife and cat (obviously). 
+          I am also working on a few side projects including Investment Calculator (a simple tool to teach people about investing) 
+          and dayofthedead.holiday. Currently I am not accepting freelance work, but I'd love to get coffee and get to know you, 
+          so don’t hesitate to get in touch.
         </div>
       </div>
-      <br><br>
       <!-- end about me section -->
 
       <!--contact section -->
       <div class="container-fluid p-0">
-        <div class="row mt-5 border m-0">
+        <div class="row mt-5 border m-0" style="border-style: solid; border-width:thin; border-color: darkgrey">
           <div class=col></div>
           <div class="col-8 mt-4">
-            
             <H2 class="text-center">How can I reach you?</H2>
-          
             <!-- contact buttons -->
             <div class='row mx-auto mt-4 mb-4'>
               <a href="mailto:tom.m.sharp12@gmail.com" class = "mx-auto">
@@ -101,67 +73,20 @@
                   Email Me <span class="badge badge-light"></span>
                 </button>
               </a>
-
-              <!-- <a href="https://github.com/tmsharp" class = "mx-auto">
-                <button type="button" class="btn btn btn-outline-secondary">
-                  Github <span class="badge badge-light"></span>
-                </button>
-              </a>
-              <a href="https://github.com/tmsharp" class = "mx-auto">
-                <button type="button" class="btn btn btn-outline-secondary">
-                  Github <span class="badge badge-light"></span>
-                </button>
-              </a> -->
-
             </div>
-
+            <!-- end contact buttons -->
           </div>
           <div class=col></div>
         </div>
       </div>
-      <!-- contact section -->
+      <!-- end contact section -->
 
-      <div class="container-fluid p-0">
-        <div class="row mt-5">
-          <div class=col></div>
-          <div class="col-8 my-auto text-center">
-            T.M. Sharp
-          </div>
-          <div class=col></div>
-        </div>
+      <div class="inner-container space-bottom text-center space-top">
+          T.M. Sharp
       </div>
-      <br>
-      <br>
 
-
-
-      <!-- skills section -->
-      <!-- <div class="container-fluid">
-        <div class='row mt-5 mx-5 p-5'>
-
-          <div class='col-lg-4'>
-            <H3 class='text-center'>Development</H3>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class='col-lg-4'>
-            <H3 class='text-center'>Analysis</H3>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class='col-lg-4'>
-            <H3 class='text-center'>Machine Learning</H3>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
+    </div>
+ 
   </body>
 
 </html>
