@@ -42,3 +42,11 @@
     text-align: center;
     font-size: small;
 }
+.blog-posts{
+
+}
+.blog-date{
+    font-size: x-small;
+    font-style: italic;
+    color:gray;
+}
