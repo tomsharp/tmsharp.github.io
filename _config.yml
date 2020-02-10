@@ -1,7 +1,12 @@
 collections:
   authors:
     output: true
-
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  
 defaults:
   - scope:
       path: ""
