@@ -1,4 +1,5 @@
 collections:
+  - medium_posts
     
 plugins:
   - jekyll-feed

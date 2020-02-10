@@ -47,6 +47,6 @@
 }
 .blog-date{
     font-size: x-small;
-    font-style: italic;
+    /* font-style: italic; */
     color:gray;
 }

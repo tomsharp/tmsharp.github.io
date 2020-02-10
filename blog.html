@@ -11,37 +11,30 @@ title: T.M. Sharp | Blog
     </div>
   </div> 
     <div class='blog-posts space-bottom'>
+      <div class='inner-container border-top'></div>
 
-        <div class="inner-container space-y border-top border-bottom">
-          <a href="" target="_blank" class="list-group-item list-group-item-action">
-              <div class='blog-date'>February 7, 2020</div>
-              <h6>The Analysis Lifecycle: How to avoid "Analysis for the sake of Analysis"</h6>
-          </a>
-        </div> 
-        
-        <ul>
-          {% for post in site.posts %}
-            <li>
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-              <p>{{ post.excerpt }}</p>
-            </li>
-          {% endfor %}
-        </ul>
+      <!-- {% for e in site.medium_posts %}
+      <div class="inner-container space-y border-bottom">
+        <a href="{{ site.baseurl }}{{ e.url }}" target="_blank" class="list-group-item list-group-item-action">
+            <div class='blog-date'>{{ page.date | date_to_string }}</div>
+            <h6>{{e.title}}</h6>
+            <h6>{{e.subitle}}</h6>
+            <p>{{e.feed_content}}</p>           
+        </a>
+      </div> 
+      {% endfor %} -->
 
-        <!-- <div class="inner-container space-y border-bottom">
-          <a href="https://www.google.com" target="_blank" class="list-group-item list-group-item-action">
-              <div class='blog-date'>February 7, 2020</div>
-              <h6>The Analysis Lifecycle: How to avoid "Analysis for the sake of Analysis"</h6>
-          </a>
-        </div>  -->
+      {% for post in site.data.medium_posts %}
+      <div class="inner-container space-y border-bottom">
+        <a href="{{ post.link }}" target="{{ post.target }}" class="list-group-item list-group-item-action">
+            <div class='blog-date'>{{ post.date | date_to_string }}</div>
+            <h6 class="mb-0">{{post.title}}</h6>
+            <p class="font-italic">{{post.subtitle}}</p>
+            <div>{{post.excerpt}}</div>           
+        </a>
+      </div> 
+      {% endfor %}
 
-        <!-- <div class="inner-container space-y border-bottom">
-          <a href="https://www.google.com" target="_blank" class="list-group-item list-group-item-action">
-              <div class='blog-date'>February 7, 2020</div>
-              <h6>The Analysis Lifecycle: How to avoid "Analysis for the sake of Analysis"</h6>
-          </a>
-        </div>  -->
-
-      </div>
     </div>
+  </div>
 </div> <!-- end content -->
