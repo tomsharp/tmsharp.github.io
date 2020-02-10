@@ -2,6 +2,6 @@ I am currently working as a Data Scientist at Deloitte, which is where my passio
 for working with data and experience solving business problems converge. 
 Outside of work I love to travel and get a taste of different cultures. 
 In addition to working, I am also pursuing my Masters in Analytics through Georgia Tech. 
-Currnently, I'm starting my own freelancing work through my network and websites like Upwork. 
+Currently, I'm starting my own freelancing work through my network and websites like Upwork. 
 If you have a project in mind that you need help with, 
 or even if you'd just like to connect, please reach out!
