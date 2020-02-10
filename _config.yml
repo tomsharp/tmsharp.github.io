@@ -1,5 +1,4 @@
 collections:
-  - medium_posts
     
 plugins:
   - jekyll-feed
@@ -7,11 +6,6 @@ plugins:
   - jekyll-seo-tag
   
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
   - scope:
       path: ""
     values:
