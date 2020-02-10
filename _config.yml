@@ -1,6 +1,4 @@
 collections:
-  authors:
-    output: true
     
 plugins:
   - jekyll-feed
@@ -8,11 +6,6 @@ plugins:
   - jekyll-seo-tag
   
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "posts"

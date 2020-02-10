@@ -8,8 +8,5 @@
   link: https://www.github.com/tomsharp
   target: _blank
 - name: Resume
-  link: ./static/Tom Sharp_2020.pdf
+  link: /assets/Tom Sharp_2020.pdf
   target: _blank
-- name: Staff
-  link: /staff.html
-  target:
