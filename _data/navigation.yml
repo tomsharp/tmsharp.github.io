@@ -7,6 +7,9 @@
 - name: Code
   link: https://www.github.com/tomsharp
   target: _blank
+- name: LinkedIn
+  link: https://www.linkedin.com/in/tom-sharp/
+  target: _blank
 - name: Resume
   link: /assets/Tom Sharp_2020.pdf
   target: _blank
