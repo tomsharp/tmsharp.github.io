@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
             {% for item in site.data.navigation %}
-                <a href="{{ item.link }}" class="nav-item nav-link" target="{{ item.target }}">
+                <a href="{{ item.link }}" class="nav-item nav-link ml-auto" target="{{ item.target }}">
                     {{ item.name }}
                 </a>
             {% endfor %}

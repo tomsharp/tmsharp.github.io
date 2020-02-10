@@ -1,9 +1,9 @@
 collections:
     
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+  # - jekyll-feed
+  # - jekyll-sitemap
+  # - jekyll-seo-tag
   
 defaults:
   - scope:
