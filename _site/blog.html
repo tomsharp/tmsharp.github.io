@@ -3,9 +3,9 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>T.M. Sharp | Blog</title>
-    <link rel="shortcut icon" type="image/png" href="./static/img/logo.png"/>
-    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./static/css/custom.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/img/logo.png"/>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -14,26 +14,42 @@
   <body class="body-bordered">
 
     <!-- navbar -->
-    <div class='content'>
-      <nav class="nav-container navbar navbar-expand-lg navbar-light">
-        <a class="nav-item nav-link" href="index.html">
-          <H3 class="navbar-brand p-0 m-0" href="#">T.M. Sharp</H3>
+<div class='content'>
+    <nav class="nav-container navbar navbar-expand-lg navbar-light">
+        <a class="nav-item nav-link" href="/">
+            <H3 class="navbar-brand p-0 m-0" href="#">T.M. Sharp</H3>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="index.html">Home</a>
-            <a class="nav-item nav-link" href="blog.html">Blog</a>
-            <a class="nav-item nav-link" href="https://www.github.com/tomsharp" target="_blank">Code</a>
-            <a class="nav-item nav-link" href="./static/Tom Sharp_2020.pdf" target="_blank" download>Resume</a>
+            
+                <a href="/" class="nav-item nav-link" target="">
+                    Home
+                </a>
+            
+                <a href="/blog.html" class="nav-item nav-link" target="">
+                    Blog
+                </a>
+            
+                <a href="https://www.github.com/tomsharp" class="nav-item nav-link" target="_blank">
+                    Code
+                </a>
+            
+                <a href="./static/Tom Sharp_2020.pdf" class="nav-item nav-link" target="_blank">
+                    Resume
+                </a>
+            
+                <a href="/staff.html" class="nav-item nav-link" target="">
+                    Staff
+                </a>
+            
             </div>
         </div>
-      </nav>
-    </div>
-    <!-- end navbar -->
-
+    </nav>
+</div>
+<!-- end navbar -->
     <!-- content -->
 <div class="content">
   <div class="inner-container space-y text-center">
@@ -50,6 +66,30 @@
               <h6>The Analysis Lifecycle: How to avoid "Analysis for the sake of Analysis"</h6>
           </a>
         </div> 
+        
+        <ul>
+          
+            <li>
+              <h2><a href="/2020/02/09/bananas.html">Bananas</a></h2>
+              <p><p>A banana is an edible fruit – botanically a berry – produced by several kinds
+of large herbaceous flowering plants in the genus Musa.</p>
+</p>
+            </li>
+          
+            <li>
+              <h2><a href="/2018/08/22/kiwifruit.html">Kiwifruit</a></h2>
+              <p><p>Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
+berry of several species of woody vines in the genus Actinidia.</p>
+</p>
+            </li>
+          
+            <li>
+              <h2><a href="/2018/08/21/apples.html">Apples</a></h2>
+              <p><p>An apple is a sweet, edible fruit produced by an apple tree.</p>
+</p>
+            </li>
+          
+        </ul>
 
         <!-- <div class="inner-container space-y border-bottom">
           <a href="https://www.google.com" target="_blank" class="list-group-item list-group-item-action">
@@ -68,36 +108,34 @@
       </div>
     </div>
 </div> <!-- end content -->
-
     <!--contact section -->
-    <div>
-        <div class="container-fluid p-0">
-            <div class="row border-bottom border-top m-0">
-            <div class="mx-auto my-4">
+<div>
+    <div class="container-fluid p-0">
+        <div class="row border-bottom border-top m-0">
+        <div class="mx-auto my-4">
 
-                <H2 class="text-center">Let's chat!</H2>
-                
-                <div class='row mx-auto'>
-                <a href="mailto:tom.m.sharp12@gmail.com" class = "mx-auto">
-                    <button type="button" class="btn btn-outline-primary">
-                    Email Me <span class="badge badge-light"></span>
-                    </button>
-                </a>
-                </div>
+            <H2 class="text-center">Let's chat!</H2>
+            
+            <div class='row mx-auto'>
+            <a href="mailto:tom.m.sharp12@gmail.com" class = "mx-auto">
+                <button type="button" class="btn btn-outline-primary">
+                Email Me <span class="badge badge-light"></span>
+                </button>
+            </a>
             </div>
-            </div>
-        </div> 
-        <!-- end contact section -->
-  
-        <!-- tagline -->
-        <div class="container-fluid p-0">
-          <div class="row mx-auto my-3">
-            <div class="tagline">
-              T.M. Sharp
-            </div>
-          </div>
-        </div> 
-        <!-- end tagline -->
-
-    </body>
+        </div>
+    </div>
+</div> 
+<!-- end contact section -->
+    <!-- tagline -->
+<div class="container-fluid p-0">
+    <div class="row mx-auto my-3">
+        <div class="tagline">
+        T.M. Sharp
+        </div>
+    </div>
+</div> 
+<!-- end tagline -->
+        
+  </body>
 </html>
