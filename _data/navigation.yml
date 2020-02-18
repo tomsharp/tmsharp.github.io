@@ -10,6 +10,9 @@
 # - name: Resume
 #   link: /assets/Tom Sharp_2020.pdf
 #   target: _blank
+- name: Photos
+  link: /photos
+  target:
 - name: Contact
   link: /contact
   target:
