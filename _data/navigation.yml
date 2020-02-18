@@ -2,7 +2,7 @@
   link: /
   target: 
 - name: Blog
-  link: /blog.html
+  link: /blog
   target: 
 - name: Code
   link: https://www.github.com/tomsharp
@@ -13,3 +13,6 @@
 - name: Resume
   link: /assets/Tom Sharp_2020.pdf
   target: _blank
+- name: Contact
+  link: /contact
+  target:

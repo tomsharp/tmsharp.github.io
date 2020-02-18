@@ -11,18 +11,6 @@ title: T.M. Sharp | Blog
   </div> 
     <div class='blog-posts space-bottom'>
       <div class='inner-container border-top'></div>
-
-      <!-- {% for e in site.medium_posts %}
-      <div class="inner-container space-y border-bottom">
-        <a href="{{ site.baseurl }}{{ e.url }}" target="_blank" class="list-group-item list-group-item-action">
-            <div class='blog-date'>{{ page.date | date_to_string }}</div>
-            <h6>{{e.title}}</h6>
-            <h6>{{e.subitle}}</h6>
-            <p>{{e.feed_content}}</p>           
-        </a>
-      </div> 
-      {% endfor %} -->
-
       {% for post in site.data.medium_posts %}
       <div class="inner-container space-y border-bottom">
         <a href="{{ post.link }}" target="{{ post.target }}" class="list-group-item list-group-item-action">
@@ -33,7 +21,6 @@ title: T.M. Sharp | Blog
         </a>
       </div> 
       {% endfor %}
-
     </div>
   </div>
 </div> <!-- end content -->
