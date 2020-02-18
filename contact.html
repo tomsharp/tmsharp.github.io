@@ -1,0 +1,24 @@
+---
+title: T.M. Sharp | Contact
+---
+<div>
+    <div class="inner-container space-y text-center">
+        <H2>Let's Connect</H2>
+        <div>
+            Here's a few ways to get in contact with me.
+        </div>
+        <div class='row mx-auto space-top pb-3'>
+            <a href="mailto:tom.m.sharp12@gmail.com" class = "mx-auto">
+                <button type="button" style="font-size: small" class="btn btn-lg btn-outline-dark">
+                Email Me <span class="badge badge-light"></span>
+                </button>
+            </a>
+        </div>
+        <div clas='row mx-auto'>
+            {% for item in site.data.contact %}
+                <a href="{{ item.link }}" target="{{ item.target }}" class="btn btn-social-icon btn-lg btn-{{ item.btn-type }}">
+                    <i class="fa fa-{{ item.btn-type }}"></i>
+                </a>
+            {% endfor %}
+        </div> 
+</div>
