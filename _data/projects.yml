@@ -1,6 +1,6 @@
 - title: SenateGraph
   subtitle: Visualizing Senators' Stances on Politcal Topics
-  image: /assets/img/projects/SenateGraph.png
+  image: /assets/img/projects/SenateGraph.PNG
   link: http://senategraph.herokuapp.com/
   target: _blank
 - title: SVR
