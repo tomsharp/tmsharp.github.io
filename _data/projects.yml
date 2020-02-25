@@ -1,0 +1,15 @@
+- title: SenateGraph
+  subtitle: Visualizing Senators' Stances on Politcal Topics
+  image: /assets/img/projects/SenateGraph.png
+  link: http://senategraph.herokuapp.com/
+  target: _blank
+- title: SVR
+  subtitle: An Intro to Support Vector Regression
+  image: /assets/img/projects/SVR.png
+  link: https://github.com/tomsharp/SVR
+  target: _blank
+- title: Feature Importance and Selection
+  subtitle: Explainable Models using Pulsar Stars Dataset
+  image: /assets/img/projects/PulsarStars.png
+  link: https://github.com/tomsharp/pulsar-stars
+  target: _blank

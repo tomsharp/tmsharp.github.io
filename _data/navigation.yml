@@ -1,12 +1,15 @@
 - name: Home
   link: /
   target: 
+- name: Projects
+  link: /projects
+  target: 
 - name: Blog
   link: /blog
   target: 
-- name: Code
-  link: https://www.github.com/tomsharp
-  target: _blank
+# - name: Code
+#   link: https://www.github.com/tomsharp
+#   target: _blank
 # - name: Resume
 #   link: /assets/Tom Sharp_2020.pdf
 #   target: _blank
