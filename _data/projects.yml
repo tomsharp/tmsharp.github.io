@@ -3,6 +3,7 @@
   image: /assets/img/projects/SenateGraph.PNG
   link: http://senategraph.herokuapp.com/
   target: _blank
+  code: <a href=https://github.com/tomsharp/SenateGraph-App/>Code</a>
 - title: SVR
   subtitle: An Intro to Support Vector Regression
   image: /assets/img/projects/SVR.png

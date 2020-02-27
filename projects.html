@@ -1,8 +1,9 @@
 ---
-title: T.M. Sharp | Photos
+title: T.M. Sharp | Projects
 ---
 <div class="inner-container space-y text-center">
     <H2>Projects</H2>
+    <div>Click on each project to explore more.</div>
     <div class="pt-3 mx-3">
         <div class="inner-container">
             {% for item in site.data.projects %}
@@ -14,6 +15,7 @@ title: T.M. Sharp | Photos
                             <img src="{{ item.image }}" class='img-fluid' alt="{{ item.title }}" title="{{ item.title }}" />
                         </a>
                     </div>
+                    {{ item.code }}
                 </div>
             {% endfor %}
         </div>
