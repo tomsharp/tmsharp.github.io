@@ -1,6 +1,19 @@
 - title: The Data Analysis Lifecycle
   subtitle: How to avoid “Analysis for the sake of Analysis”
   date: 10/02/2020
-  excerpt: In today’s Data Science hyped world, organizations are increasingly looking for answers from the data they collect. The good news is, this means more business leaders are turning towards data-driven decision making. Unfortunately though, this often turns into you as a Data Analyst / Scientist going on a wild goose chase for answers that may or may not be in the data.
+  excerpt: In today’s Data Science hyped world, organizations are increasingly looking for answers 
+          from the data they collect. The good news is, this means more business leaders are turning 
+          towards data-driven decision making. Unfortunately though, this often turns into you as a 
+          Data Analyst / Scientist going on a wild goose chase for answers that may or may not be in the data.
   link: https://towardsdatascience.com/the-analysis-lifecycle-448e6b36931c
+  target: _blank
+- title: An Introduction to Support Vector Regression (SVR)
+  subtitle:
+  date: 03/03/2020
+  excerpt: Support Vector Machines (SVMs) are well known in classification problems. 
+            The use of SVMs in regression is not as well documented, however. 
+            These types of models are known as Support Vector Regression (SVR).
+            In this article, I will walk through the usefulness in SVR compared to other regression models, 
+            do a deep-dive into the math behind the algorithm, and provide an example with the Boston Housing Price dataset.
+  link: https://medium.com/@tomsharp/an-introduction-to-support-vector-regression-svr-a3ebc1672c2
   target: _blank
