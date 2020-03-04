@@ -1,11 +1,11 @@
 - name: Home
   link: /
   target: 
-- name: Projects
-  link: /projects
-  target: 
 - name: Blog
   link: /blog
+  target: 
+- name: Projects
+  link: /projects
   target: 
 # - name: Code
 #   link: https://www.github.com/tomsharp
