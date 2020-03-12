@@ -1,3 +1,13 @@
+- title: "Coronavirus (COVID-19) in the News: Are they Overreacting?"
+  subtitle: I scraped over 5,000 news articles to find out
+  date: 12/03/2020
+  excerpt: With the onset of Coronavirus (COVID-19), many people are turning to the media 
+           to assess the severity of the situation. Some are saying that the media is overreacting, 
+           portraying a situation that is far worse than reality. Others believe that the media is 
+           strictly portraying the facts, i.e., not trying to persuade us one way or another. 
+           How can we determine which is actually happening?
+  link: https://medium.com/@tomsharp/coronavirus-in-the-news-are-they-overreacting-8b88da5f4afa
+  target: _blank
 - title: An Introduction to Support Vector Regression (SVR)
   subtitle: Using Support Vector Machines (SVMs) for Regression
   date: 03/03/2020
