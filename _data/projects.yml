@@ -1,3 +1,8 @@
+- title: Coronavirus News
+  subtitle: How are News Sites reacting to COVID-19?
+  image: /assets/img/projects/CoronavirusNews.png
+  link: https://github.com/tomsharp/coronavirus-news
+  target: _blank
 - title: SenateGraph
   subtitle: Visualizing Senators' Stances on Politcal Topics
   image: /assets/img/projects/SenateGraph.PNG
