@@ -9,18 +9,20 @@ title: T.M. Sharp | Blog
         Here's some of my latest thoughts and work. 
     </div>
   </div> 
-    <div class='blog-posts space-bottom'>
-      <div class='inner-container border-top'></div>
-      {% for post in site.data.medium_posts %}
-      <div class="inner-container space-y border-bottom">
-        <a href="{{ post.link }}" target="{{ post.target }}" class="list-group-item list-group-item-action">
-            <div class='blog-date'>{{ post.date | date_to_string }}</div>
-            <h6 class="mb-0">{{post.title}}</h6>
-            <p class="font-italic">{{post.subtitle}}</p>
-            <div>{{post.excerpt}}</div>           
-        </a>
-      </div> 
-      {% endfor %}
-    </div>
+  <div id='subscribe' class='inner-container my-3'>
+    {% include subscribe.html %}
+  </div>
+  <div class='blog-posts space-bottom'>
+    <div class='inner-container border-top'></div>
+    {% for post in site.data.medium_posts %}
+    <div class="inner-container space-y border-bottom">
+      <a href="{{ post.link }}" target="{{ post.target }}" class="list-group-item list-group-item-action">
+          <div class='blog-date'>{{ post.date | date_to_string }}</div>
+          <h6 class="mb-0">{{post.title}}</h6>
+          <p class="font-italic">{{post.subtitle}}</p>
+          <div>{{post.excerpt}}</div>           
+      </a>
+    </div> 
+    {% endfor %}
   </div>
 </div> <!-- end content -->
