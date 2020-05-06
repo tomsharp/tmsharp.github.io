@@ -10,20 +10,18 @@ title: T.M. Sharp | Home
 </div>
 
 <!-- intro photo section -->
-<div class="space-top inner-container">
-  <img src="/assets/img/me/me-artmuseum.JPG" class='img-fluid mx-auto d-block'></img>
-</div> <!-- end intro photo section -->
+<div class="container space-y mx-auto">
+  <section class="row">
+      <div class="col-md-6">
+        <img src="/assets/img/me/professional.png" class='img-fluid d-block'></img>
+      </div>
+      
+      <div class="col-md-6 my-auto">
+          <H5>About me</H5>
+          {% include aboutme.html %}
+      </div>
+    </section>
+</div>
+  
 
-<div class="content">
-  <!-- subscribe modal -->
-  <!-- <script async data-uid="20b7c6d2fe" src="https://artisanal-artisan-2420.ck.page/20b7c6d2fe/index.js"></script> -->
-  <!-- about me section -->
-  <div class="inner-container space-y">
-    <H5>About me</H5>
-    <div>
-        {% include aboutme.html %}
-    </div>
-  </div> 
-  <!-- end about me section -->
-</div> 
-<!-- end content -->
+
